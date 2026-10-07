@@ -10,8 +10,10 @@
 
     <title>اختيار النظام التعليمي</title>
 
+    <!-- ملف التصميم -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Font Awesome -->
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -26,20 +28,24 @@
     <main class="choose-container">
 
 
-        <!-- اللوجو -->
+        <!-- =========================
+             اللوجو
+        ========================== -->
 
         <div class="choose-logo">
 
             <img
                 src="1.jpeg"
-                alt="شعار المنصة"
+                alt="شعار منصة القيصر"
             >
 
         </div>
 
 
 
-        <!-- العنوان -->
+        <!-- =========================
+             العنوان
+        ========================== -->
 
         <div class="choose-header">
 
@@ -55,18 +61,24 @@
 
 
 
-        <!-- الاختيارات -->
+        <!-- =========================
+             الاختيارات
+        ========================== -->
 
         <div class="choices">
 
 
-            <!-- الثانوية العامة -->
+            <!-- =========================
+                 الثانوية العامة
+            ========================== -->
 
-            <button
+            <a
+                href="high-school.html"
                 class="choice-card"
                 id="generalSecondary"
-                type="button"
             >
+
+                <!-- الأيقونة -->
 
                 <div class="choice-icon">
 
@@ -75,32 +87,45 @@
                 </div>
 
 
+                <!-- العنوان -->
+
                 <h2>
                     الثانوية العامة
                 </h2>
 
+
+                <!-- الوصف -->
 
                 <p>
                     الدخول إلى منصة الثانوية العامة
                 </p>
 
 
+                <!-- زر الدخول -->
+
                 <span>
+
                     دخول
+
                     <i class="fa-solid fa-arrow-left"></i>
+
                 </span>
 
-            </button>
+            </a>
 
 
 
-            <!-- البكالوريا -->
+            <!-- =========================
+                 البكالوريا
+            ========================== -->
 
-            <button
+            <a
+                href="baccalaureate.html"
                 class="choice-card"
                 id="baccalaureate"
-                type="button"
             >
+
+                <!-- الأيقونة -->
 
                 <div class="choice-icon">
 
@@ -109,22 +134,31 @@
                 </div>
 
 
+                <!-- العنوان -->
+
                 <h2>
                     البكالوريا
                 </h2>
 
+
+                <!-- الوصف -->
 
                 <p>
                     الدخول إلى منصة البكالوريا
                 </p>
 
 
+                <!-- زر الدخول -->
+
                 <span>
+
                     دخول
+
                     <i class="fa-solid fa-arrow-left"></i>
+
                 </span>
 
-            </button>
+            </a>
 
 
         </div>
@@ -133,9 +167,18 @@
     </main>
 
 
-    <!-- JavaScript -->
+
+    <!-- =========================
+         Supabase
+    ========================== -->
 
     <script src="supabase.js"></script>
+
+
+    <!-- =========================
+         JavaScript
+    ========================== -->
+
     <script src="script.js"></script>
 
 

@@ -487,5 +487,24 @@ function initApp() {
 
     }
 
+    /* =========================
+   زر بدء الرحلة
+========================= */
+
+const startButton =
+    document.getElementById("startButton");
+
+
+startButton.addEventListener("click", function () {
+
+    /*
+        عند الضغط على الزر
+        ننتقل إلى تسجيل الدخول
+    */
+
+    window.location.href = "login.html";
+
+});
+
     }
 }
